@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" content="width={{dWidth}},minimum-scale=0.3,maximum-scale=2,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<title>{{title}}</title>
+	</head>
+
+	<body>
+		<div class="view">
+			<div class="page page_0" id="page_0">
+				<div class="preload"></div>
+				<img class="loader_spin" src="img/loading.png"/>
+				<div class="loader_text">0%</div>
+			</div>
+			{{htmlMain}}
+		</div>
+		<audio class="bgm" src="music/bgm.mp3" loop></audio>
+		<span class="music_btn music_play"></span>
+	</body>
+
+</html>
